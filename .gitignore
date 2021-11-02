@@ -15,6 +15,7 @@ SPlsWork/
 *.sm2
 *.smft
 *.zip
+*.smw
 
 # VT Pro-e
 *.vtz

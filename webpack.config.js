@@ -18,19 +18,19 @@ module.exports = function (env) {
             filename: 'bundle.js',
             path: path.resolve(__dirname, env.target, 'dist')
         },
-        plugins: [
-            new CopyPlugin({
-                patterns: [
-                    {
-                        from: env.source + '/assets',
-                        to: 'assets/'
-                    },
-                    {
-                        from: env.source + '/*.(html|css)',
-                        to: '[name][ext]'
-                    }
-                ]
-            })
-        ]
+        // plugins: [
+        //     new CopyPlugin({
+        //         patterns: [
+        //             {
+        //                 from: env.source + '/assets',
+        //                 to: 'assets/'
+        //             },
+        //             {
+        //                 from: env.source + '/*.(html|css)',
+        //                 to: '[name][ext]'
+        //             }
+        //         ]
+        //     })
+        // ]
     };
 };

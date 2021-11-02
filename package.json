@@ -2,7 +2,7 @@
   "name": "html5-tutorial",
   "version": "1.0.0",
   "description": "Walks through building different HTML5 layouts for AV systems",
-  "main": "app.js",
+  "main": "bundle.js",
   "scripts": {
     "build": "webpack",
     "archive": "ch5-cli archive -p project -d dist -o archive",

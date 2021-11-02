@@ -1,0 +1,118 @@
+{
+	"Errors": [],
+	"id": "_pv76zc333",
+	"name": "General",
+	"description": "General",
+	"company": "Abt",
+	"client": "",
+	"author": "Danny",
+	"version": "1.0.0.0",
+	"schemaVersion": 1,
+	"subContractLinks": [],
+	"subContracts": [],
+	"specifications": [
+		{
+			"Errors": [],
+			"parentId": "_pv76zc333",
+			"id": "_8fgfkc3zy",
+			"componentId": "_r1bcd5wi3",
+			"instanceName": "Room",
+			"numberOfInstances": 1
+		}
+	],
+	"components": [
+		{
+			"Errors": [],
+			"parentId": "_pv76zc333",
+			"id": "_r1bcd5wi3",
+			"name": "Room",
+			"description": "Room properties",
+			"commands": [
+				{
+					"Errors": [],
+					"name": "Power_On_Fb",
+					"siblingId": "_frk4rlut6",
+					"dataType": 1,
+					"notes": "",
+					"id": "_24j6u53bd",
+					"parentId": "_r1bcd5wi3",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Power_Off_Fb",
+					"siblingId": "_f3bnz29wa",
+					"dataType": 1,
+					"notes": "",
+					"id": "_l9ggyhvxt",
+					"parentId": "_r1bcd5wi3",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Mode_Fb",
+					"siblingId": "_1kz3z4igb",
+					"dataType": 2,
+					"notes": "",
+					"id": "_3axc7yul9",
+					"parentId": "_r1bcd5wi3",
+					"attributeType": 0
+				},
+				{
+					"Errors": [],
+					"name": "Name_Fb",
+					"siblingId": "_1926ms4xt",
+					"dataType": 3,
+					"notes": "",
+					"id": "_u9vanguvr",
+					"parentId": "_r1bcd5wi3",
+					"attributeType": 0
+				}
+			],
+			"feedbacks": [
+				{
+					"Errors": [],
+					"name": "Power_On",
+					"siblingId": "_24j6u53bd",
+					"dataType": 1,
+					"notes": "",
+					"id": "_frk4rlut6",
+					"parentId": "_r1bcd5wi3",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Power_Off",
+					"siblingId": "_l9ggyhvxt",
+					"dataType": 1,
+					"notes": "",
+					"id": "_f3bnz29wa",
+					"parentId": "_r1bcd5wi3",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "Mode",
+					"siblingId": "_3axc7yul9",
+					"dataType": 2,
+					"notes": "",
+					"id": "_1kz3z4igb",
+					"parentId": "_r1bcd5wi3",
+					"attributeType": 1
+				},
+				{
+					"Errors": [],
+					"name": "",
+					"siblingId": "_u9vanguvr",
+					"dataType": 0,
+					"notes": "",
+					"id": "_1926ms4xt",
+					"parentId": "_r1bcd5wi3",
+					"attributeType": 1
+				}
+			],
+			"specifications": []
+		}
+	],
+	"allComponentsForAllContracts": []
+}
