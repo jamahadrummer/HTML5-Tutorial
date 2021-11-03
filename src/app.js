@@ -1,8 +1,8 @@
 const webXpanel = require('../node_modules/@crestron/ch5-webxpanel/dist/cjs/index.js');
 
 const configuration = {
-	host: '192.168.115.220',
-	ipId: '28'
+	host: '192.168.115.24',
+	ipId: '27'
 };
 
 if (webXpanel.isActive) {
