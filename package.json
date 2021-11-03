@@ -6,9 +6,11 @@
 	"scripts": {
 		"build": "webpack",
 		"archive": "ch5-cli archive -p project -d dist -o archive",
+		"contract archive": "ch5-cli archive -p project -d dist -o archive -c ./contracts/output/General/interface/mapping/General.cse2j",
 		"onestep": "npm run build && npm run archive",
 		"huddle:build": "webpack --env source=ExampleRooms/HuddleRoom/html --env target=ExampleRooms/HuddleRoom",
-		"huddle:archive": "ch5-cli archive -p HuddleRoom -d ExampleRooms/HuddleRoom/dist -o archive"
+		"huddle:archive": "ch5-cli archive -p HuddleRoom -d ExampleRooms/HuddleRoom/dist -o archive",
+		"test": "echo \"Error: no test specified\" && exit 1"
 	},
 	"repository": {
 		"type": "git",
