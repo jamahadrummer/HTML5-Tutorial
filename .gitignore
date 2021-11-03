@@ -4,6 +4,7 @@ contracts/output/
 node_modules/
 dist/
 archive/
+.vscode/
 
 # SIMPL Windows
 SPlsWork/
